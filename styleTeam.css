@@ -1,0 +1,96 @@
+* {
+  color: navy;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* background batik */
+body {
+  background-image: url('./ornament_batik.png');
+  background-repeat: no-repeat;
+  background-position: 0px 100px;
+  background-size: 200px;
+}
+
+/* mengatur bagian paling atas */
+.atas {
+  float: right;
+}
+header ul li {
+  padding-right: 25px;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+
+/* mengatur seluruh bagian web */
+.container {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+/* mengatur posisis judul */
+.judul {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* mengatur pd bagian biodata */
+.biodata {
+  float: right;
+  padding-right: 565px;
+  margin: -130px;
+}
+td {
+  padding-top: 8px;
+  padding-bottom: 8px
+}
+
+.semi {
+  padding-top: 25px;
+}
+
+.experience {
+  float: right;
+  padding-right: 420px;
+  margin-top: -340px;
+}
+#bawah {
+  padding-bottom: 100px
+}
+
+/* mengatur jarak foto dengan judul */
+.col-3 {
+  padding-top: 30px;;
+}
+
+a {
+	text-decoration: none;
+  color: blue;
+}
+
+/* mengatur posisi foto */
+ .foto {
+ padding-left: 38px;
+}
+
+
+/* mengatur border pada image */
+.bingkai {
+  border: 10px solid orange;
+  position: absolute;
+  width: 220px;
+  height: 265px;
+  margin-top: -260px;
+  margin-left: 0px;
+}
+.bingkai2 {
+  border: 10px solid navy;
+  position: absolute;
+  width: 220px;
+  height: 265px;
+  margin-top: -260px;
+  margin-left: 0px;
+}
