@@ -1,0 +1,48 @@
+* {
+  color: navy;
+}
+.atas {
+  padding-right: 120px;
+  float: right;
+}
+
+header ul li {
+  padding-right: 24px;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* untuk mengatur penulisan blog */
+.judul {
+  padding-bottom: 20px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+/* untuk mengatur ukuran font h1 */
+h1 {
+  font-size: 40px;
+}
+
+.blog {
+  width: 1335px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* untuk mengatur letak tulisan isi blog */
+.larry {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.lorem {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.down {
+  padding-left: 170px;
+  padding-right: 170px;
+  margin-bottom: 170px;
+}
