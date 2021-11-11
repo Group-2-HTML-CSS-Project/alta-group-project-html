@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* navbar styling */
+.max-width{
+  max-width: 1300px;
+  padding: 0 150px;
+  margin: auto;
+}
+.max-width .logo img{
+  width: 100px;
+  margin-left: -200px;
+}
+.navbar{
+  position: absolute;
+  width: 100%;
+  background: white;
+}
+.navbar .max-width{
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu li{
+  margin-left: 20px;
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  color: blue;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 50px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+  color: orange;
+}
+.hero-pict img{
+  width: 100px;
+}
+.contact{
+  width: 100px;
+  float: left;
+  margin-top: -12px;
+  margin-right: 50px;
+}
+.button{
+  width: 100px;
+  height: 30px;
+  background:transparent;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: orange;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.button:hover{
+  background-color: orange;
+  transition: color 0.3s ease;
+  color: white;
+}
+.button a{
+  color: orange;
+  transition: color 0.3s ease;
+}
+.button a:hover{
+  color: white;
+}
+
+/* Get In Touch */
+.touch-contact{
+  position: absolute;
+  margin-top: 193px;
+  margin-left: 250px;
+  color: darkblue;
+  line-height: 70px;
+}
+.touch-text{
+  margin-top: 80px;
+  position: absolute;
+}
+.touch-text h1{
+  margin-top: 40px;
+  margin-left: 500px;
+  color: darkblue;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.touch-text p{
+  margin-top: 45px;
+  margin-left: 525px;
+  color: darkblue;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+/* Kubu Kiri */
+
+#tlpn{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+#no-tlpn{
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40px;
+}
+#mail{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+#alamat-mail{
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40px;
+}
+#web{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+#web-address{
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40px;
+}
+#socprof1{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+#socprof2{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+#socprof3{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 70px;
+}
+#socprof4{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 100px;
+}
+
+/* Form */
+
+form{
+  position: absolute;
+  margin-left: 525px;
+  margin-top: 300px;
+  color: darkblue;
+  line-height: 40px;
+}
+form input{
+  height: 40px;
+  border-radius: 7px;
+  padding-left: 15px;
+  width: 500px;
+}
+form span{
+  color: red;
+}
+#lmessage{
+  height: 150px;
+}
+
+/* Send Message */
+
+.send-message{
+  position: absolute;
+  margin-top: 760px;
+  margin-left: 520px;
+  width: 50px;
+}
+.btn-msg{
+  width: 150px;
+  height: 30px;
+  background: rgb(252, 79, 10);
+  border: 2px solid rgb(252, 79, 10);
+  margin-top: 13px;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.btn-msg a{
+  color: white;
+  transition: color 0.3s ease;
+}
+.send-message img{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 17px;
+  width: 15px;
+}
+
+/* Footer Contact */
+
+.footer{
+  position: absolute;
+  margin-top: 1000px;
+  background: rgb(83, 4, 83);
+  height: 25vh;
+  width: 1300px;
+}
+.footer-max-width{
+  padding: 0 150px;
+  margin: auto;
+}
+.footer img{
+  position: absolute;
+  width: 100px;
+  margin-top: 65px;
+  margin-left: 90px;
+}
+.sosmed{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+}
+.footer-img1 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: auto;
+}
+.footer-img2 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: auto;
+}
+.footer-img3 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 75px;
+  margin-top: auto;
+}
+.footer-img4 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: auto;
+}
+.copyright{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 800px;
+  color: white;
+}
