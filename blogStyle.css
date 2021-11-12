@@ -1,0 +1,153 @@
+.atas {
+  padding-right: 120px;
+  float: right;
+}
+
+header ul li {
+  padding-right: 24px;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: navy;
+}
+.atas li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: navy;
+}
+.atas li a:hover{
+  color: orange;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  background:transparent;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: orange;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.btn:hover{
+  background-color: orange;
+  transition: color 0.3s ease;
+  color: white;
+}
+.btn a{
+  text-decoration: none;
+  color: orange;
+  transition: color 0.3s ease;
+}
+.btn a:hover{
+  color: white;
+}
+
+/* untuk mengatur penulisan blog */
+.judul {
+  padding-bottom: 20px;
+  padding-top: 0px;
+  text-align: center;
+  color: navy;
+}
+.judul span{
+  color: red;
+}
+
+/* gambar blog */
+.gambar{
+  width: 95%;
+}
+
+/* untuk mengatur ukuran font h1 */
+h1 {
+  font-size: 40px;
+  color: navy;
+}
+
+.blog {
+  width: 1335px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: navy;
+}
+
+/* untuk mengatur letak tulisan isi blog */
+.larry {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+  color: navy;
+}
+.lorem {
+  padding-left: 170px;
+  padding-right: 170px;
+  color: navy;
+}
+.down {
+  padding-left: 170px;
+  padding-right: 170px;
+  margin-bottom: 170px;
+  color: navy;
+}
+
+/* Footer Contact */
+
+.footer{
+  position: absolute;
+  margin-top: 90px;
+  background: rgb(83, 4, 83);
+  height: 25vh;
+  width: 1300px;
+  color: white;
+}
+.footer-max-width{
+  padding: 0 150px;
+  margin: auto;
+}
+.footer img{
+  position: absolute;
+  width: 100px;
+  margin-top: 65px;
+  margin-left: 90px;
+}
+.sosmed{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+}
+.footer-img1 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -40px;
+}
+.footer-img2 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: -40px;
+}
+.footer-img3 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -40px;
+}
+.footer-img4 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -40px;
+}
+.copyright{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 800px;
+  color: white;
+}
