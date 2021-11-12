@@ -1,0 +1,193 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* background batik */
+body {
+  background-image: url('./ornament_batik.png');
+  background-repeat: no-repeat;
+  background-position: 0px 100px;
+  background-size: 200px;
+}
+
+/* mengatur bagian paling atas */
+.atas {
+  float: right;
+}
+.atas li a:hover{
+  color: orange;
+}
+header ul li {
+  padding-right: 25px;
+  display: inline-block;
+  color: navy;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  background:transparent;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: orange;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.btn:hover{
+  background-color: orange;
+  transition: color 0.3s ease;
+  color: white;
+}
+.btn a{
+  color: orange;
+  transition: color 0.3s ease;
+}
+.btn a:hover{
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  color: navy;
+}
+
+/* mengatur seluruh bagian web */
+.container {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+/* mengatur posisis judul */
+.judul {
+  text-align: center;
+  padding-top: 20px;
+  color: navy;
+}
+.judul span{
+  color: red;
+}
+/* mengatur pd bagian biodata */
+.biodata {
+  float: right;
+  padding-right: 565px;
+  margin: -130px;
+  color: navy;
+}
+td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: navy;
+}
+
+.semi {
+  padding-top: 25px;
+  color: navy;
+}
+
+.experience {
+  float: right;
+  padding-right: 420px;
+  color: navy;
+  margin-top: -340px;
+}
+#bawah {
+  padding-bottom: 100px
+  color: navy;
+}
+
+/* mengatur jarak foto dengan judul */
+.col-3 {
+  padding-top: 30px;;
+}
+
+a {
+	text-decoration: none;
+  color: blue;
+}
+
+/* mengatur posisi foto */
+ .foto {
+ padding-left: 38px;
+}
+
+
+/* mengatur border pada image */
+.bingkai {
+  border: 10px solid orange;
+  position: absolute;
+  width: 220px;
+  height: 265px;
+  margin-top: -260px;
+  margin-left: 0px;
+}
+.bingkai2 {
+  border: 10px solid navy;
+  position: absolute;
+  width: 220px;
+  height: 265px;
+  margin-top: -260px;
+  margin-left: 0px;
+}
+
+/* Footer Contact */
+
+.footer{
+  position: absolute;
+  margin-top: 120px;
+  background: rgb(83, 4, 83);
+  height: 25vh;
+  width: 1300px;
+}
+.footer-max-width{
+  padding: 0 150px;
+  margin: auto;
+}
+.footer img{
+  position: absolute;
+  width: 100px;
+  margin-top: 65px;
+  margin-left: 90px;
+}
+.sosmed{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+}
+.footer-img1 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -40px;
+}
+.footer-img2 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: -40px;
+}
+.footer-img3 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -40px;
+}
+.footer-img4 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -40px;
+}
+.copyright{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 800px;
+  color: white;
+}
